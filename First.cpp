@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int recursion (int n){
     /*base case*/
@@ -11,6 +12,9 @@ int recursion (int n){
     return recCall;
 }
 int main(){
-    int resultingfibo = recursion(9);
-    std::cout <<resultingfibo;
+    int n;
+    cout <<"Enter term for fibonacci series sum "<<endl;
+    cin >>n;
+    int resultingfibo = recursion(n);
+    cout <<"The fibonacci sum is -> "<<resultingfibo<<endl;
 }
