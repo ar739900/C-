@@ -1,6 +1,10 @@
 {
     "files.associations": {
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp"
     },
     "code-runner.runInTerminal": true
 }
